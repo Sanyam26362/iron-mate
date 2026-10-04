@@ -1,0 +1,25 @@
+.env
+__pycache__/
+*.db
+.venv/
+.pytest_cache/
+chat.txt
+filters.json
+style_pool.json
+style_review.txt
+style_profile.json
+reply_bank.json
+style_health.json
+bad_replies.jsonl
+# Testing & benchmark scripts
+scripts/
+tests/
+test_*.py
+verify_*.py
+pytest.ini
+
+# Chat extraction & distillation utilities
+distill_full_chat.py
+extract_pairs.py
+parse_chat.py
+*.log
